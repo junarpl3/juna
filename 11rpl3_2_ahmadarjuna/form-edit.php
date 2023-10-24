@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Warung Sembako</title>
+<title>Toko Jejepangan</title>
 </head>
 <body>
  
-	<h2>Barang Warung Sembako</h2>
+	<h2>Barang Toko Jejepangan</h2>
 	<br/>
 	<a href="index.php">Kembali</a>
 	<br/>
