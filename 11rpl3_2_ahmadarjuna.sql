@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 24 Okt 2023 pada 13.58
+-- Waktu pembuatan: 24 Okt 2023 pada 14.08
 -- Versi server: 10.4.27-MariaDB
 -- Versi PHP: 8.0.25
 
@@ -41,7 +41,11 @@ CREATE TABLE `toko_juna` (
 --
 
 INSERT INTO `toko_juna` (`idBarang`, `kodeBarang`, `namaBarang`, `satuanBarang`, `stokBarang`, `hargaBarang`) VALUES
-(5, 5, 'pizza', '1', 50, 600000);
+(5, 5, 'pizza', '1', 50, 600000),
+(6, 2, 'Burger', '1', 20, 450000),
+(7, 6, 'Spageti', '5', 20, 70000),
+(8, 1, 'Sushi', '1', 50, 350000),
+(9, 10, 'Sashimi', '1', 45, 250000);
 
 --
 -- Indexes for dumped tables
@@ -61,7 +65,7 @@ ALTER TABLE `toko_juna`
 -- AUTO_INCREMENT untuk tabel `toko_juna`
 --
 ALTER TABLE `toko_juna`
-  MODIFY `idBarang` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `idBarang` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
